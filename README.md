@@ -1,2 +1,2 @@
 # google-homepage
-Coding the Google homepage project
+Coding a rough mockup of the Google Homepage.
