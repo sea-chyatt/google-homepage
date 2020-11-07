@@ -12,20 +12,43 @@ body{
     float: right;
 }
 #google-logo{
-    font-family: sans-serif;
-    font-size: 400%;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 600%;
+    font-weight: 900;
     text-align: center;
     padding-top: 15%;
-    letter-spacing: -.17em;
+    letter-spacing: -.230em;
 } 
-#footer-container{
-    Position:absolute;
-    width:100%;
-    bottom:0px;
-    height:45px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background-color:hsl(240, 10%, 92%);
-  border: .5px solid hsl(240, 0%, 70%);
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(242,242,242,1)
+  }
+  
+  .left ul, .right ul{
+    list-style-type: none;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+    padding: 0px;
+  }
+  footer li{
+    padding: 15px;
+  }
+#button-container{
+    padding-top: 3%;
+}
+#search-bar input{
+    border-radius: 25px;
+    border: 1.5px solid rgba(222,225,229,1);
+  width: 475px;
+  height: 48px;
+  max-width: 600px;
+  padding: 0px 40px;
+  font-size: 16px;
 }
